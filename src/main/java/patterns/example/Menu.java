@@ -47,6 +47,7 @@ public class Menu {
                     int year = Integer.parseInt(scanner.nextLine());
                     Command findByYear = new FindMovieByYear(year);
                     findByYear.execute();
+                    break;
                 case 0 :
                     isQuit = true;
                     break;
